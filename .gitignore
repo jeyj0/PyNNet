@@ -1,0 +1,5 @@
+test0 - defaultSettings
+test1 - copyBests(5 2) copyBestWoMut removeWorsts(5)
+test2 - copyBests(5,2) copyBestWoMut removeWorst(5) fixedFF g2000e160i24l72o24 sleepsForCooling
+test3 - copyBestWoMut removeWorst(5) fixedFF(log) g2000e160i24l72l48o24 sleepsForCooling
+__pycache__
