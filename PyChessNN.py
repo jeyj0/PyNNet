@@ -1,0 +1,2 @@
+class PyChessNN(object):
+    pass
