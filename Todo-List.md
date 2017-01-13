@@ -13,6 +13,7 @@
 ## PyNNTrainer.py
 - pause-continue functionality (between gens)
 - add more detailed progress data output to file (for analysis)
+  - as JSON/XML (?)
 - `__h_weightedChoice(choices)` only calc "total" once per generation
 - switch from numeric-genes to binary
   - variable length?
