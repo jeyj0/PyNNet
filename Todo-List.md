@@ -1,6 +1,6 @@
-# PyNNet Dev-Notes
+# TODO
 
-## PyNNet
+## PyNNet.py
 - add multiple calc-ways:
   - numeric
   - binary
@@ -10,15 +10,15 @@
   - connections between non-consecutive layers / no fixed layers
 
 
-## PyNNTrainer
+## PyNNTrainer.py
 - pause-continue functionality (between gens)
 - add more detailed progress data output to file (for analysis)
 - `__h_weightedChoice(choices)` only calc "total" once per generation
 - switch from numeric-genes to binary
   - variable length?
   - interpretation is task of Evaluator 
-    - => get net from genes in fitness-fct 
-    - => rename `PyNNTrainer` to `PyGeneticTrainer` or similar)
+    - get net from genes in fitness-fct 
+    - rename `PyNNTrainer` to `PyGeneticTrainer` or similar)
   - support both / multiple variants?
     - numeric genes
     - binary genes
@@ -27,7 +27,7 @@
         `randomize()` or `mutate(chances)`
         - exclude interpretation as net from trainer (=> general genetic alg.)
 
-## PyChessNN
+## PyChessNN.py
 - fitness is gradient of given fitness-points
 - only give fitness-points for winning if net caused win, 
   not if competitor caused own loss
